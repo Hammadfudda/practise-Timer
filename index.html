@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="timer">
+    <h1>
+        <span class="span" id="displayHour">--</span>
+        <span class="dot">:</span>
+    <span class="span" id="displayMin">--</span>
+    <span class="dot">:</span>
+    <span class="span" id="displaySec">--</span>
+    <span class="dot">:</span>
+    <span class="span" id="displayMili">--</span>
+    
+</h1>
+<div id="button">
+    <button onclick="startTimer()" id="startBtn">START</button>
+    <button onclick="stopTimer()" id="stopBtn">STOP</button>
+    <button onclick="resetTimer()" id="resetBtn">RESET</button>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
